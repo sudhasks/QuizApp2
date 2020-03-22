@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg3"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:text="Sudha's Card Quiz game"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFEB3B"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/game_rule"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Game Rules"
+        android:paddingVertical="10dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:paddingHorizontal="20dp"
+        android:background="#1ECA29"
+        />
+    <Button
+        android:id="@+id/start_Quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quiz_rules">This Quiz game contains total 5  multiple choices questions.  After starting quiz ,  timer of 60 second will start and users need to complete the quiz within that time. Score will be reflected once the quiz is done or the user give wrong answer and player can restart the game again..</string>
+    <string name="welcome_screen">Welcome to Sudha Card Quiz Game App!!</string>
+    <string name="not_registered">Not Registered</string>
+</resources>
